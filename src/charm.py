@@ -369,8 +369,8 @@ def is_https_url(url: str) -> bool:
         True if the string is valid HTTPS URL for a GitHub repo, False otherwise.
     """
     # Check if the URL starts with 'https://github.com'
-    if not url.startswith("https://github.com/"):
-        return False
+    # if not url.startswith("https://github.com/"):
+    #     return False
     # Check if the URL ends with '.git'
     if not url.endswith(".git"):
         return False
