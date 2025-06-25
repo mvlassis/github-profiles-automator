@@ -386,7 +386,7 @@ def is_ssh_url(url: str) -> bool:
     Returns:
         True if the string is valid SSH URL for a GitHub repo, False otherwise.
     """
-    if not url.startswith("git@github.com:"):
+    if not url.startswith("git@"):
         return False
     # Get the part after git@github.com
     path = url.split(":", 1)[-1]
