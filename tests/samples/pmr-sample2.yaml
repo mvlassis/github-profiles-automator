@@ -1,0 +1,28 @@
+profiles:
+- name: ml-engineers
+  owner:
+    kind: User
+    name: admin@canonical.com
+  resources:
+    hard:
+      limits.cpu: "1"
+  contributors:
+  - name: kimonas@canonical.com
+    role: admin
+  - name: michal@canonical.com
+    role: edit
+  - name: andreea@canonical.com
+    role: view
+- name: data-engineers
+  owner:
+    kind: User
+    name: admin@canonical.com
+  contributors:
+  - name: daniela@canonical.com
+    role: edit
+  - name: noha@canonical.com
+    role: edit
+  - name: manos@canonical.com
+    role: view
+  - name: orfeas@canonical.com
+    role: view
