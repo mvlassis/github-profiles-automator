@@ -1,3 +1,4 @@
+profiles:
 - name: camwa
   owner:
     kind: User
