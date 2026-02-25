@@ -1,0 +1,9 @@
+- name: camwa
+  owner:
+    kind: User
+    name: camwa@corp.kazootek.com
+  resources:
+    hard:
+      limits.cpu: "12"
+      limits.memory: "60Gi"
+      limits.requests.storage: "100Gi"
