@@ -2,7 +2,7 @@ profiles:
 - name: camwa
   owner:
     kind: User
-    name: camwa@corp.kazootek.com
+    name: newowner@owner.com
   resources:
     hard:
       limits.cpu: "12"
