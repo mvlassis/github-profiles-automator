@@ -1,10 +1,10 @@
-profiles:
-- name: camwa
+apiVersion: kubeflow.org/v1
+kind: Profile
+metadata:
+  name: ml-developer
+spec:
   owner:
     kind: User
-    name: newowner@owner.com
-  resources:
-    hard:
-      limits.cpu: "12"
-      limits.memory: "60Gi"
-      limits.requests.storage: "100Gi"
+    name: michal@example.com
+
+  resourceQuotaSpec: {}
