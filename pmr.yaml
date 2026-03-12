@@ -1,10 +1,12 @@
-apiVersion: kubeflow.org/v1
-kind: Profile
-metadata:
-  name: ml-developer
-spec:
-  owner:
-    kind: User
-    name: michal@example.com
-
-  resourceQuotaSpec: {}
+profiles:
+  - name: ml-engineer
+    owner:
+      kind: User
+      name: michal@example.com
+contributors:
+  - name: mattia@canonical.com
+    role: admin
+  - name: dario@canonical.com
+    role: edit
+  - name: enrico@canonical.com
+    role: view
