@@ -2,7 +2,7 @@ profiles:
   - name: ml-engineer
     owner:
       kind: User
-      name: michal@example.com
+      name: noha@example.com
 contributors:
   - name: mattia@canonical.com
     role: admin
