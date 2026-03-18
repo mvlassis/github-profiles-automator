@@ -3,6 +3,10 @@ profiles:
     owner:
       kind: User
       name: kimonas@example.com
+    resources:
+      hard:
+        limits.cpu: "1"
+        nvidia.com/gpu: "4"
 contributors:
   - name: mattia@canonical.com
     role: admin
