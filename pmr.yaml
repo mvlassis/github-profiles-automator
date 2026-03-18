@@ -6,7 +6,7 @@ profiles:
     resources:
       hard:
         limits.cpu: "1"
-        nvidia.com/gpu: "4"
+        limits.nvidia.com/gpu: "4"
 contributors:
   - name: mattia@canonical.com
     role: admin
